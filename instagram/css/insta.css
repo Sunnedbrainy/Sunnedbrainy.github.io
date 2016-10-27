@@ -1,0 +1,145 @@
+body{
+	background-color: #CCCCCC;
+}
+
+nav {
+	background-color: white;
+}
+
+.x{
+	float: left;
+	display: inline;
+	padding-top: 10px;
+	height: 40px;
+}
+
+.y{
+	margin-left:500px;
+	display: inline;
+	padding-top: 10px;
+	height: 40px;
+}
+
+.z{
+	float: right;
+	border:1px solid black;
+	border-radius:100%;
+	display: inline;
+	padding-top: 10px;
+	height: 40px;
+}
+
+.float{
+	margin-left: 390px;
+	display:inline-block;
+	padding-top: 50px;
+}
+
+.norm{
+	display: inline;
+	height: 30px;
+	width: 30px;
+	float: right;
+	padding-top:60px;
+	margin-left: 30px;
+	padding-right: 50px;
+	
+}
+
+.ad{ 
+	width: 28%;
+	margin-top: 40px;
+	float: left;
+	text-align: center;
+	background-color:white;
+	height:470px;
+	margin-left: 15px;
+}
+
+.min{
+	border-radius: 100px;
+   border-color: transparent;
+   width:140px;
+   height:140px;
+   margin-top: -80px;
+ }
+
+#air{
+	border:3px;
+	border-radius: 20px;
+	background-color: green;
+	width: 150px;
+	height: 30px;
+	font-weight: bold;
+	display: block;
+	color:white;
+	margin-left: 90px;
+	margin-top: 20px;
+}
+
+#pen{
+	display: inline;
+	float: left;
+	padding-top: 20px;
+	margin-left: 40px;
+}
+#biro{
+	padding-top: 20px;
+}
+
+.path{
+	margin-right: 50px;
+	padding-top: 20px;
+}
+
+.by{
+	padding-top: 100px;
+	clear:both;
+	float: left;
+}
+
+.by img{
+	height: 40px;
+	width: 40px;
+	border: 1px solid white;
+	border-radius: 100%;
+	margin-left: 20px;
+}
+
+.imgright{
+	width: 70%;
+	float: right;
+	margin-left:2px; 
+	margin-right: 5px;
+	margin-top:10px; 
+}
+
+.img{
+	height: 135px;
+	width: 130px;
+	border:7px solid white;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.wed{
+	float: left;
+}
+.nev{
+	margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 500px) {
+	/* for phone */
+    body {
+        background-color:blue;
+    }
+
+}
+
+
+
+
+
+
